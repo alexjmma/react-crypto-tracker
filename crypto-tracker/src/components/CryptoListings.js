@@ -5,7 +5,7 @@ class CryptoListings extends React.Component {
     //console.log('this.props.listings.data is::: ', this.props.listings.data)
     return (
       <div>
-        <h1> This is the Show Listings Component. </h1>
+        <h5> This is the Show Listings Component. </h5>
         <h4>Sorted in order of Market Cap</h4>
         {this.props.listings.data
           ? this.props.listings.data.map((coin, index) => (

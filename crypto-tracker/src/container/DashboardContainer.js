@@ -26,11 +26,8 @@ class DashboardContainer extends React.Component {
     console.log('this.state is: ', this.state)
     return (
       <div className="DashboardContainer">
-      <header className="DashboardContainer-header">
-      <h1>Crypto Dashboard Home </h1>
-      </header>
-      <p className = "DashboardboardContainer-intro">
-        Cryptocurrency coin information will be listed below. </p>
+      <h3 className = "DashboardboardContainer-intro">
+        Cryptocurrency coin information will be listed below. </h3>
         <CryptoListings
         listings = {this.state.listings}/>
       </div>

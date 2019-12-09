@@ -5,11 +5,15 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import DashboardContainer from './container/DashboardContainer'
 import {About} from './components/About'
 import {News} from './components/News'
+import {Layout} from './components/Layout'
+import {NavigationBar} from './components/NavigationBar'
 
 class App extends React.Component {
   render() {
     return (
       <React.Fragment>
+        <NavigationBar/>
+        <Layout>
         <Router>
           <Switch>
             <Route exact path ="/" component={DashboardContainer} />
@@ -17,6 +21,7 @@ class App extends React.Component {
             <Route path ="/about" component={About} />
           </Switch>
         </Router>
+        </Layout>
       </React.Fragment>
     );
   }
