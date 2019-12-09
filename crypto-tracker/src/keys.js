@@ -1,0 +1,2 @@
+REACT_APP_CMC_API_KEY = '29d6e11c-4f1a-40cc-8eb2-dc04d0e04568'
+
