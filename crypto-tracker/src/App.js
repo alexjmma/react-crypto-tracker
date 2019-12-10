@@ -6,6 +6,7 @@ import DashboardContainer from './container/DashboardContainer'
 import {About} from './components/About'
 import {News} from './components/News'
 import {Layout} from './components/Layout'
+import {PieCharts} from './components/PieCharts'
 import {NavigationBar} from './components/NavigationBar'
 
 class App extends React.Component {
@@ -17,6 +18,7 @@ class App extends React.Component {
         <Router>
           <Switch>
             <Route exact path ="/" component={DashboardContainer} />
+            <Route path ='/data' component={PieCharts}/>
             <Route path ="/news" component={News} />
             <Route path ="/about" component={About} />
           </Switch>
