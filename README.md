@@ -3,8 +3,8 @@
 
 ## Local setup
 
-'npm install' <br>
-'npx create-react-app crypto-tracker'
+`npm install` <br>
+`npx create-react-app crypto-tracker`
 
 From there you can:
 
