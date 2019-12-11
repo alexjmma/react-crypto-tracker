@@ -17,4 +17,5 @@ Reach Router https://reacttraining.com/react-router/ <br>
 News API: https://newsapi.org/ <br>
 ChartKick: https://chartkick.com/react <br>
 
-
+## Hosted On Firebase
+https://react-crypto-tracker-4ae1d.web.app/
