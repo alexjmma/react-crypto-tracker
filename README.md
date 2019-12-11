@@ -5,10 +5,13 @@
 
 `npm install` <br>
 `npx create-react-app crypto-tracker`
+`Firebase init` 
 
 From there you can:
 
 - Run the build with `npm start`
+- Create a running build with `npm build`
+- To set up firebase use `firebase init` and then `firebase deploy`
 
 bootstrap: https://getbootstrap.com/ <br> 
 react: https://reactjs.org/ <br>
