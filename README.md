@@ -13,9 +13,9 @@ From there you can:
 - Create a running build with `npm build`
 - To set up firebase use `firebase init` and then `firebase deploy`
 
-bootstrap: https://getbootstrap.com/ <br> 
-react: https://reactjs.org/ <br>
-firebase: https://firebase.google.com <br>
+Bootstrap: https://getbootstrap.com/ <br> 
+React: https://reactjs.org/ <br>
+Firebase: https://firebase.google.com <br>
 Reach Router https://reacttraining.com/react-router/ <br>
 News API: https://newsapi.org/ <br>
 ChartKick: https://chartkick.com/react <br>
