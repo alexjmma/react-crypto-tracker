@@ -4,7 +4,7 @@ import './App.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import DashboardContainer from './container/DashboardContainer'
 import {About} from './components/About'
-import {News} from './components/News'
+import News from './components/News'
 import {Layout} from './components/Layout'
 import {PieCharts} from './components/PieCharts'
 import {NavigationBar} from './components/NavigationBar'

@@ -2,6 +2,7 @@ const cmc_baseUrl = 'https://pro-api.coinmarketcap.com/v1'
 const cors = 'https://cors-anywhere.herokuapp.com/'
 const news_url = 'https://newsapi.org/v2/top-headlines'
 const CMC_API_KEY = process.env.REACT_APP_CMC_API_KEY
+const NEWS_API_KEY = process.env.REACT_APP_NEWS_API_KEY
 
 export function getCrypto_Listings() {
   console.log('0. calling getGlobalMetrics_Quotes...')
@@ -12,6 +13,7 @@ export function getCrypto_Listings() {
 
 export function getNews() {
   console.log('Startings News API')
-  return fetch(cors + news_url )
+  return fetch(cors + news_url + '?q=cryptocurrency&from=2019-12-01&sortBy=publishedAt&apiKey=' + NEWS_API_KEY )
   .then(response => response.json())
 }
+
