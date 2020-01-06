@@ -16,7 +16,7 @@ From there you can:
 Bootstrap: https://getbootstrap.com/ <br> 
 React: https://reactjs.org/ <br>
 Firebase: https://firebase.google.com <br>
-Reach Router https://reacttraining.com/react-router/ <br>
+React Router https://reacttraining.com/react-router/ <br>
 News API: https://newsapi.org/ <br>
 ChartKick: https://chartkick.com/react <br>
 
